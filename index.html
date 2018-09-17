@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<title>MDout Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 
+    {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.web-tag, .fa {cursor:pointer}
+.web-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="web-top">
+  <div class="web-row web-large web-light-grey">
+    <div class="web-col s3">
+      <a href="#" class="web-button web-block">Home</a>
+    </div>
+    <div class="web-col s3">
+      <a href="#plans" class="web-button web-block">Topics</a>
+    </div>
+    <div class="web-col s3">
+      <a href="#about" class="web-button web-block">Tools</a>
+    </div>
+    <div class="web-col s3">
+      <a href="#contact" class="web-button web-block">Contact Us</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="web-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+ 
+    <div class="search">
+    <input type="text" placeholder="   Search Your Topic...">
+    <button type="submit">SEARCH</button>
+    </div>
+    
+  <div class="web-panel">
+    <h1><b>
+        <img src="images/logo.png" height="28" >
+        </b></h1>
+        
+  </div>
+
+  <!-- Slideshow -->
+  <div class="web-container">
+    <div class="web-display-container mySlides">
+      <img src="images/5.jpg" style="width:80%" 
+     >
+     
+    </div>
+    <div class="web-display-container mySlides">
+      <img src="images/2.png" style="width:80%">
+     
+    </div>
+    <div class="web-display-container mySlides">
+      <img src="images/3.png" style="width:80% " 
+           >
+      
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="web-container web-dark-grey web-padding web-xlarge">
+      <div class="web-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left web-hover-text-teal"></i></div>
+      <div class="web-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right web-hover-text-teal"></i></div>
+    
+      <div class="web-center">
+        <span class="web-tag demodots web-border web-transparent web-hover-white" onclick="currentDiv(1)"></span>
+        <span class="web-tag demodots web-border web-transparent web-hover-white" onclick="currentDiv(2)"></span>
+        <span class="web-tag demodots web-border web-transparent web-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+    
+  
+    <div class="web-row web-container">
+        <div class="web-col l1  web-light-grey web-container web-padding-8 Sign_up ">
+            <button type="submit">SIGN UP</button></div>
+        <div class="web-col m6 web-light-grey web-container web-padding-8 Sign_up">
+        <button type="submit">LOG IN</button>    
+    </div>
+    </div>
+                             
+  <!-- Grid -->
+  <div class="web-row web-container">
+    <div class="web-center web-padding-64">
+      <span class="web-xlarge web-bottombar web-border-dark-grey web-padding-16">What We Offer</span>
+    </div>
+    <div class="web-col l3 m6 web-pale-blue web-container web-padding-16">
+      <h3>Health A-Z</h3>
+      <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+    </div>
+
+    <div class="web-col l3 m6 web-grey web-container web-padding-16">
+      <h3>Videos</h3>
+      <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+    </div>
+
+    <div class="web-col l3 m6 web-blue web-container web-padding-16">
+      <h3>Groups</h3>
+      <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+    </div>
+
+    <div class="web-col l3 m6 web-dark-grey web-container web-padding-16">
+      <h3>Health Tips</h3>
+      <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="web-row-padding" id="plans">
+    <div class="web-center web-padding-64">
+       <span class="web-xlarge web-bottombar web-border-dark-grey web-padding-16">Trending Topics</span>
+    </div>
+
+    <div class="web-third web-margin-bottom">
+      <ul class="web-ul web-border web-center web-hover-shadow">
+        <li class="web-green web-xlarge web-padding-32">Popular</li>
+        <li class="web-padding-16"><b>Topic</b> 1 </li>
+        <li class="web-padding-16"><b>Topic</b> 2</li>
+        <li class="web-padding-16"><b>Topic</b> 3</li>
+        <li class="web-padding-16"><b>Topic</b> 4</li>
+        <li class="web-padding-16">
+            <button class="web-button web-blue web-padding-large">Sign Up</button><br>
+          <span class="web-opacity">for latest updates</span>
+        </li>
+        <li class="web-light-grey web-padding-24">
+          <button class="web-button web-black web-padding-large">READ</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="web-third web-margin-bottom">
+      <ul class="web-ul web-border web-center web-hover-shadow">
+        <li class="web-dark-grey web-xlarge web-padding-32">Medical</li>
+        <li class="web-padding-16"><b>Topic</b> 1 </li>
+        <li class="web-padding-16"><b>Topic</b> 2</li>
+        <li class="web-padding-16"><b>Topic</b> 3</li>
+        <li class="web-padding-16"><b>Topic</b> 4</li>
+        <li class="web-padding-16">
+            <button class="web-button web-blue web-padding-large">Sign Up</button><br>
+          <span class="web-opacity">for latest updates</span>
+        </li>
+        <li class="web-light-grey web-padding-24">
+          <button class="web-button web-black web-padding-large">READ</button>
+        </li>
+      </ul>
+    </div>
+
+    <div class="web-third web-margin-bottom">
+      <ul class="web-ul web-border web-center web-hover-shadow">
+        <li class="web-black web-xlarge web-padding-32">Technical</li>
+        <li class="web-padding-16"><b>Topic</b> 1 </li>
+        <li class="web-padding-16"><b>Topic</b> 2</li>
+        <li class="web-padding-16"><b>Topic</b> 3</li>
+        <li class="web-padding-16"><b>Topic</b> 4</li>
+        <li class="web-padding-16">
+            <button class="web-button web-blue web-padding-large">Sign Up</button><br>
+          <span class="web-opacity">for latest updates</span>
+        </li>
+        <li class="web-light-grey web-padding-24">
+          <button class="web-button web-black web-padding-large">READ</button>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid -->
+  <div class="web-row-padding" id="about">
+    <div class="web-center web-padding-64">
+      <span class="web-xlarge web-bottombar web-border-dark-grey web-padding-16">Tools</span>
+    </div>
+
+    <div class="web-third web-margin-bottom">
+      <div class="web-card-4">
+        <div class="web-container">
+          <h3>BMI Calculator</h3>
+          
+          <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+          <p><button class="web-button web-black web-block">Calculate</button></p>
+        </div>
+      </div>
+    </div>
+   
+    <div class="web-third web-margin-bottom">
+      <div class="web-card-4">
+        <div class="web-container">
+          <h3>Fitness Calorie Counter</h3>
+          
+          <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+          <p><button class="web-button web-blue web-block">Calculate</button></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="web-third web-margin-bottom">
+      <div class="web-card-4">
+        <div class="web-container">
+          <h3>Due Date Calculator</h3>
+          
+          <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+          <p><button class="web-button web-green web-block">Calculate</button></p>
+        </div>
+      </div>
+    </div>
+      
+      
+    <div class="web-third web-margin-bottom">
+      <div class="web-card-4">
+        <div class="web-container">
+          <h3>Ovulation Calculator</h3>
+          
+          <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+          <p><button class="web-button web-green web-block">Calculate</button></p>
+        </div>
+      </div>
+    </div>
+      
+    <div class="web-third web-margin-bottom">
+      <div class="web-card-4">
+        <div class="web-container">
+          <h3> Food Calorie Counter</h3>
+          
+          <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+          <p><button class="web-button web-black web-block">Calculate</button></p>
+        </div>
+      </div>
+    </div>
+      
+      
+    <div class="web-third web-margin-bottom">
+      <div class="web-card-4">
+        <div class="web-container">
+          <h3>Low Drug Prices</h3>
+          
+          <p>Here will be displayed text , content and information for Health A-Z related data.</p>
+          <p><button class="web-button web-blue web-block">Calculate</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+   
+  <div class="web-row-padding" id="about">
+    <div class="web-center web-padding-64">
+      <span class="web-xlarge web-bottombar web-border-dark-grey web-padding-16">About Us</span>
+    </div>
+    </div>  
+      
+    <div class="web-center web-padding-16">
+    <p>MDout is a healthcare research and analytics company leveraging healthcare status, surveys, feedback and questionnaire systems to support provider decision-making and patient satisfaction in a clinical setting. MDout team of highly-experienced healthcare professionals combines deep domain expertise in healthcare, IT and statistics with a passion for improving the patient and provider experience. MDout’s team and its products provide the healthcare market with real-time data that Improves the Patient and Provider Experience for Better Outcomes.</p>
+    <img src="images/logo.png " ; height="60"; > 
+    
+    </div>
+    
+  <!-- Contact -->
+  <div class="web-center web-padding-64" id="contact">
+    <span class="web-xlarge web-bottombar web-border-dark-grey web-padding-16">Contact Us</span>
+  </div>
+
+  <form class="web-container" action="/action_page.php" target="_blank">
+    <div class="web-section">
+      <label>Name</label>
+      <input class="web-input web-border web-hover-border-black" style="width:100%;" type="text" name="Name" required>
+    </div>
+    <div class="web-section">
+      <label>Email</label>
+      <input class="web-input web-border web-hover-border-black" style="width:100%;" type="text" name="Email" required>
+    </div>
+    <div class="web-section">
+      <label>Subject</label>
+      <input class="web-input web-border web-hover-border-black" style="width:100%;" name="Subject" required>
+    </div>
+    <div class="web-section">
+      <label>Message</label>
+      <input class="web-input web-border web-hover-border-black" style="width:100%;" name="Message" required>
+    </div>
+    <button type="submit" class="web-button web-block web-black">Send</button>
+  </form>
+
+</div>
+
+<!-- Footer -->
+
+<footer class="web-container web-padding-32 web-light-grey web-center">
+  <h4>Footer</h4>
+  <a href="#" class="web-button web-black web-margin"><i class="fa fa-arrow-up web-margin-right"></i>To the top</a>
+  <div class="web-xlarge web-section">
+    <i class="fa fa-facebook-official web-hover-opacity"></i>
+    <i class="fa fa-instagram web-hover-opacity"></i>
+    <i class="fa fa-snapchat web-hover-opacity"></i>
+    <i class="fa fa-pinterest-p web-hover-opacity"></i>
+    <i class="fa fa-twitter web-hover-opacity"></i>
+    <i class="fa fa-linkedin web-hover-opacity"></i>
+  </div>
+  <p>Designed by Sakhi </p>
+</footer>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+     dots[i].className = dots[i].className.replace(" web-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " web-white";
+}
+</script>
+
+</body>
+</html>
